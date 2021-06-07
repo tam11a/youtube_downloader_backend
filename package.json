@@ -1,0 +1,18 @@
+{
+  "name": "ytd",
+  "version": "1.0.0",
+  "description": "An Youtube Downloader Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "tam11a",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "heroku": "^7.54.0",
+    "nodemon": "^2.0.7",
+    "ytdl-core": "^4.8.2"
+  }
+}
